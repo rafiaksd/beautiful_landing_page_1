@@ -1,0 +1,38 @@
+.scroll-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.scroll-fade.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-fade[data-delay] {
+  transition-delay: attr(data-delay s);
+}
+
+.fade-in-nav {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInNav 0.7s ease-out forwards;
+}
+
+@keyframes fadeInNav {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.animate-draw {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  animation: draw 1.2s ease-in-out 0.5s forwards;
+}

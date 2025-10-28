@@ -47,6 +47,8 @@ export default function App() {
 
   return (
     <>
+      <Nav className="scroll-fade is-visible fixed top-0 left-0 w-full z-50" />
+
     <div id="scroll-container" data-scroll-container className="font-sans bg-background text-secondary-900">
       
       {/* Nav + Hero: fade in immediately */}
@@ -87,7 +89,6 @@ export default function App() {
       </section>
 
     </div>
-    <Nav className="scroll-fade is-visible fixed top-0 left-0 w-full z-50" />
     </>
   )
 }

@@ -3,8 +3,8 @@ import { useRef } from 'react'
 
 const SquiggleUnderline = () => (
   <svg
-    className="absolute left-5 right-0 -bottom-5 w-full h-8 pointer-events-none"
-    viewBox="0 0 1200 32"
+    className="absolute left-0 -bottom-5 w-full h-8 pointer-events-none"
+    viewBox="0 -8 1200 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="none"
@@ -18,7 +18,7 @@ const SquiggleUnderline = () => (
       style={{
         strokeDasharray: 1600,
         strokeDashoffset: 1600,
-        animation: 'draw 1.2s ease-in-out 0.5s forwards'
+        animation: 'draw 1.7s ease-in-out 1.5s forwards',
       }}
     />
   </svg>
@@ -41,17 +41,17 @@ export default function Hero() {
         {/* Clutch badge */}
         <div className="scroll-fade flex justify-center mb-8" data-delay="0.1">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white rounded-full shadow-sm border border-gray-200">
-            <span className="text-sm font-semibold text-gray-800">4.9 Star ON CLUTCH</span>
+            <span className="text-sm font-semibold text-gray-800">⭐ 4.9 Star ON CLUTCH</span>
           </div>
         </div>
 
         {/* Headline */}
         <div className="scroll-fade text-center max-w-5xl mx-auto" data-delay="0.2">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
-            UI/UX Design & Web Development
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+            UI/UX Design & Web <br/> Development in Dubai for 
             <br />
-            <span className="relative inline-block">
-              in Dubai for SaaS and High-End Brands
+            <span className="relative inline-block w-[70%]">
+              SaaS and High-End Brands
               <SquiggleUnderline />
             </span>
           </h1>

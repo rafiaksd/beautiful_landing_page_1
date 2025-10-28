@@ -1,7 +1,7 @@
 .scroll-fade {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  transform: translateY(20px); 
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; 
 }
 
 .scroll-fade.is-visible {

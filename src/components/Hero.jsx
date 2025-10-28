@@ -82,7 +82,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="h-64 md:h-80 bg-white"></div>
+      {/*<div className="h-64 md:h-80 bg-white"></div>*/}
     </section>
   )
 }

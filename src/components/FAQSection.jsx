@@ -27,23 +27,23 @@ export default function FAQ({ className = "" }) {
     },
     {
       q: "Who leads Zorg IT Group?",
-      a: "Zorg is led by a seasoned founder with over 15 years in the tech industry. Our leadership team brings deep experience across design, development, and business operations — guiding a growing team that’s committed to delivering impact.",
+      a: "Zorg is led by a seasoned founder with over 15 years in the tech industry. Our leadership team brings deep experience across design, development, and business operations — guiding a growing team that's committed to delivering impact.",
     },
   ];
 
   return (
     <section
-      className={`scroll-fade py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-b from-white to-pink-50 ${className}`}
+      className={`scroll-fade py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-b from-background to-primary-50 ${className}`}
       data-delay="0.4"
     >
       <div className="max-w-4xl mx-auto">
         {/* Title with Squiggles */}
         <div className="text-center mb-12">
-          <h2 className="relative inline-block text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900">
+          <h2 className="relative inline-block text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500">
             Frequently Asked Questions
-            <span className="absolute -top-6 left-0 text-red-500 text-2xl">F</span>
-            <span className="absolute -top-6 left-[50%] text-red-500 text-2xl">A</span>
-            <span className="absolute -top-6 right-0 text-red-500 text-2xl rotate-12">Q</span>
+            <span className="absolute -top-6 left-0 text-primary-500 text-2xl">F</span>
+            <span className="absolute -top-6 left-[50%] text-primary-500 text-2xl">A</span>
+            <span className="absolute -top-6 right-0 text-primary-500 text-2xl rotate-12">Q</span>
           </h2>
         </div>
 
@@ -52,20 +52,20 @@ export default function FAQ({ className = "" }) {
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className="bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-100 shadow-sm overflow-hidden"
+              className="bg-background/80 backdrop-blur-sm rounded-2xl border border-primary-100 shadow-sm overflow-hidden"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-pink-50 transition-colors"
+                className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-primary-50 transition-colors"
               >
                 <div className="flex items-center gap-4">
-                  <span className="text-lg font-bold text-pink-600">
+                  <span className="text-lg font-bold text-primary-500">
                     {String(i + 1).padStart(2, "0")}.
                   </span>
-                  <span className="font-medium text-gray-900">{faq.q}</span>
+                  <span className="font-medium text-secondary-900">{faq.q}</span>
                 </div>
                 <span
-                  className={`text-2xl text-pink-600 transition-transform duration-300 ${
+                  className={`text-2xl text-primary-600 transition-transform duration-300 ${
                     openIndex === i ? "rotate-45" : ""
                   }`}
                 >
@@ -80,7 +80,7 @@ export default function FAQ({ className = "" }) {
                 }`}
               >
                 <div className="px-6 pb-5 pt-2">
-                  <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                  <p className="text-secondary-700 text-sm md:text-base leading-relaxed">
                     {faq.a}
                   </p>
                 </div>

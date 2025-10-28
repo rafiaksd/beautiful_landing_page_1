@@ -17,34 +17,30 @@ import Ending from './components/Ending'
 export default function App() {
   useEffect(() => {
     const reveal = () => {
-      const trigger = window.innerHeight * 0.85;   // 85% of viewport
+      const trigger = window.innerHeight * 0.85
 
       document.querySelectorAll(".scroll-fade").forEach(el => {
-        const rect = el.getBoundingClientRect();
+        const rect = el.getBoundingClientRect()
 
-        // element is inside the trigger zone
         if (rect.top < trigger && rect.bottom > 0) {
-          el.classList.add("is-visible");
+          el.classList.add("is-visible")
         }
-      });
-    };
+      })
+    }
 
-    // 1. Run once after first paint
-    const raf = requestAnimationFrame(() => reveal());
-
-    // 2. Run on scroll & resize
-    window.addEventListener("scroll", reveal, { passive: true });
-    window.addEventListener("resize", reveal, { passive: true });
+    const raf = requestAnimationFrame(() => reveal())
+    window.addEventListener("scroll", reveal, { passive: true })
+    window.addEventListener("resize", reveal, { passive: true })
 
     return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener("scroll", reveal);
-      window.removeEventListener("resize", reveal);
-    };
-  }, []);
+      cancelAnimationFrame(raf)
+      window.removeEventListener("scroll", reveal)
+      window.removeEventListener("resize", reveal)
+    }
+  }, [])
 
   return (
-    <div className="font-sans bg-white text-gray-900">
+    <div className="font-sans bg-background text-secondary-900">
       <Nav />
       <Hero />
       <SliderCompany/>
@@ -57,9 +53,6 @@ export default function App() {
       <FAQSection/>
       <Culture />
       <Ending />
-
-      {/*SPACE so SCROLL APPEARS ---- <div className="h-64 md:h-48 bg-white"></div>*/}
-      
     </div>
   )
 }

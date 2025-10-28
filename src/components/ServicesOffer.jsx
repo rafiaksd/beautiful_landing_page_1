@@ -109,12 +109,12 @@ export default function ServicesOffer({ className = "" }) {
 
   return (
     <section
-      className={`scroll-fade py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-b from-white to-pink-50 ${className}`}
+      className={`scroll-fade py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-b from-white to-primary-150 ${className}`}
       data-delay="0.4"
     >
       <div className="max-w-7xl mx-auto text-center">
         {/* Main Title */}
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500 leading-tight">
           UI/UX Design, Website Development
           <br />
           &amp; Branding in Dubai
@@ -132,7 +132,7 @@ export default function ServicesOffer({ className = "" }) {
               className={`
                 px-6 py-3 rounded-full font-semibold text-sm md:text-base transition-all
                 ${activeTab === key
-                  ? "bg-gray-900 text-white"
+                  ? "bg-primary-500 text-white"
                   : "bg-white text-gray-700 border border-gray-300 hover:bg-gray-100"
                 }
               `}
@@ -147,10 +147,10 @@ export default function ServicesOffer({ className = "" }) {
           {current.items.map((item) => (
             <div
               key={item.num}
-              className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-sm border border-pink-100 hover:shadow-lg hover:border-pink-200 transition-all"
+              className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-sm border border-primary-100 hover:shadow-lg hover:border-primary-200 transition-all"
             >
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-pink-100 text-pink-600 font-bold flex items-center justify-center text-lg">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary-100 text-primary-600 font-bold flex items-center justify-center text-lg">
                   {item.num}
                 </div>
                 <div className="text-left">

@@ -1,3 +1,33 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Define your theme colors */
+@theme {
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: #387EF5; /* Main bright blue */
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+  --color-primary-800: #075985;
+  --color-primary-900: #0c4a6e;
+
+  --color-secondary-50: #f8f8f8;
+  --color-secondary-100: #f1f1f1;
+  --color-secondary-200: #e4e4e4;
+  --color-secondary-300: #d4d4d4;
+  --color-secondary-400: #a3a3a3;
+  --color-secondary-500: #737373;
+  --color-secondary-600: #525252;
+  --color-secondary-700: #404040;
+  --color-secondary-800: #262626;
+  --color-secondary-900: #000000; /* Pure black */
+
+  --color-background: #ffffff;
+}
+
 .scroll-fade {
   opacity: 0;
   transform: translateY(20px); 

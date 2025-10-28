@@ -46,7 +46,7 @@ export default function ClientReviews({ className = "" }) {
       <div className="max-w-7xl mx-auto">
         {/* Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500 leading-tight">
             What Clients Say About Zorg IT
           </h2>
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
@@ -66,7 +66,7 @@ export default function ClientReviews({ className = "" }) {
               <p className="text-gray-700 text-sm leading-relaxed">
                 {review.text}
                 {review.more && (
-                  <span className="text-red-600 font-medium cursor-pointer"> ...see more</span>
+                  <span className="text-primary-600 font-medium cursor-pointer"> ...see more</span>
                 )}
               </p>
 
@@ -80,7 +80,7 @@ export default function ClientReviews({ className = "" }) {
                   />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">{review.name}</h4>
+                  <h4 className="font-semibold text-primary-500">{review.name}</h4>
                   <p className="text-xs text-gray-500">{review.title}</p>
                 </div>
               </div>

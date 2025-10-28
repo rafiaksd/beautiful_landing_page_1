@@ -36,7 +36,7 @@ export default function SliderCompany() {
     <section className="py-16 overflow-hidden">
       {/* Header */}
       <div className="text-center mb-10 scroll-fade">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+        <h2 className="text-2xl md:text-3xl font-bold text-primary-500">
           Trusted by Industry Leaders
         </h2>
       </div>

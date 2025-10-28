@@ -27,10 +27,10 @@ export default function AboutSection({ className = "" }) {
                   text-right
                 "
               >
-                <h3 className="text-lg md:text-xl font-bold text-gray-900 tracking-wide">
+                <h3 className="text-lg md:text-xl font-bold text-secondary-900 tracking-wide">
                   ABDUR ROUF JIBON
                 </h3>
-                <p className="text-sm text-gray-800 font-medium">
+                <p className="text-sm text-secondary-800 font-medium">
                   Managing Director
                 </p>
               </div>
@@ -39,11 +39,11 @@ export default function AboutSection({ className = "" }) {
 
           {/* ---------- TEXT ---------- */}
           <div className="space-y-6 order-2">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500 leading-tight">
               Bangladesh’s UI/UX &amp; Web Team
             </h1>
 
-            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            <p className="text-secondary-700 text-base md:text-lg leading-relaxed">
               Zorg IT Group is a Dhaka-based creative design agency delivering premium digital
               services to startups, enterprises, and global brands. Our expert team blends UI/UX
               design with powerful development, helping clients elevate their online presence
@@ -54,23 +54,23 @@ export default function AboutSection({ className = "" }) {
 
             <a
               href="#contact"
-              className="inline-block mt-6 px-8 py-3 border-2 border-gray-900 text-gray-900 font-semibold rounded-full hover:bg-gray-900 hover:text-white transition"
+              className="inline-block mt-6 px-8 py-3 border-2 border-primary-500 text-primary-500 font-semibold rounded-full hover:bg-primary-500 hover:text-white transition"
             >
               Book Your FREE Strategy Call
             </a>
 
             <div className="flex flex-wrap gap-8 mt-10 text-center md:text-left">
               <div>
-                <div className="text-4xl font-bold text-gray-900">40+</div>
-                <div className="text-sm text-gray-600">Startups Supported</div>
+                <div className="text-4xl font-bold text-primary-500">40+</div>
+                <div className="text-sm text-secondary-600">Startups Supported</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-gray-900">80+</div>
-                <div className="text-sm text-gray-600">Projects Designed</div>
+                <div className="text-4xl font-bold text-primary-500">80+</div>
+                <div className="text-sm text-secondary-600">Projects Designed</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-gray-900">3+</div>
-                <div className="text-sm text-gray-600">Years of Experience</div>
+                <div className="text-4xl font-bold text-primary-500">3+</div>
+                <div className="text-sm text-secondary-600">Years of Experience</div>
               </div>
             </div>
           </div>

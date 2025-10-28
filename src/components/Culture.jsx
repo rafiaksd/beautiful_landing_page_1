@@ -9,7 +9,7 @@ export default function Culture({ className = "" }) {
         {/* Left: Text */}
         <div className="space-y-6">
           <div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500 leading-tight">
               A Culture Built on
               <br />
               Growth, Creativity &amp; Collaboration
@@ -25,7 +25,7 @@ export default function Culture({ className = "" }) {
 
           <a
             href="#careers"
-            className="inline-block px-8 py-3 border-2 border-gray-900 text-gray-900 font-semibold rounded-full hover:bg-gray-900 hover:text-white transition"
+            className="inline-block px-8 py-3 border-2 border-primary-500 text-primary-500 font-semibold rounded-full hover:bg-primary-500 hover:text-white transition"
           >
             Explore Career Opportunities
           </a>

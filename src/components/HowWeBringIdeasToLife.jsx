@@ -8,10 +8,10 @@ export default function HowWeBringIdeaToLife({ className = "" }) {
       <div className="max-w-6xl mx-auto text-center">
         {/* Main Title */}
         <div className="relative inline-block mb-8">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500 leading-tight">
             How We Bring Ideas to Life
           </h2>
-          <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-32 h-2 bg-gradient-to-r from-red-400 to-pink-500 rounded-full"></div>
+          <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-32 h-2 bg-gradient-to-r from-primary-400 to-primary-500 rounded-full"></div>
         </div>
 
         {/* Subtitle */}
@@ -30,7 +30,7 @@ export default function HowWeBringIdeaToLife({ className = "" }) {
             {/* Step 1: Discovery */}
             <div className="relative lg:pr-12">
               <div className="flex flex-col items-center lg:items-start">
-                <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6">
                   🚀
                 </div>
                 <div className="text-center lg:text-left">
@@ -51,7 +51,7 @@ export default function HowWeBringIdeaToLife({ className = "" }) {
             {/* Step 2: Design */}
             <div className="relative lg:pr-12 lg:-ml-6">
               <div className="flex flex-col items-center lg:items-start">
-                <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6 animate-pulse">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6 animate-pulse">
                   🎨
                 </div>
                 <div className="text-center lg:text-left">
@@ -68,7 +68,7 @@ export default function HowWeBringIdeaToLife({ className = "" }) {
             {/* Step 3: Development */}
             <div className="relative lg:pr-12 lg:-ml-6">
               <div className="flex flex-col items-center lg:items-start">
-                <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6">
                   <span className="text-sm">&lt;/&gt;</span>
                 </div>
                 <div className="text-center lg:text-left">
@@ -88,7 +88,7 @@ export default function HowWeBringIdeaToLife({ className = "" }) {
             {/* Step 4: Delivery */}
             <div className="relative lg:-ml-6">
               <div className="flex flex-col items-center lg:items-start">
-                <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-6">
                   ⭐
                 </div>
                 <div className="text-center lg:text-left">

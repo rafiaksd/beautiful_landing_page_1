@@ -41,7 +41,7 @@ export default function WhyChooseUs({ className = "" }) {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-500 leading-tight">
             Why Businesses in Dubai Choose Zorg IT Group
           </h2>
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
@@ -58,15 +58,15 @@ export default function WhyChooseUs({ className = "" }) {
                 key={i}
                 className={`
                   group flex gap-4 p-5 rounded-2xl border bg-gray-50 border-gray-200
-                  hover:bg-red-50 hover:border-red-200
+                  hover:bg-red-50 hover:border-primary-200
                   transition-all duration-300 cursor-default
                 `}
               >
-                <div className="text-2xl flex-shrink-0 transition-colors group-hover:text-red-600">
+                <div className="text-2xl flex-shrink-0 transition-colors group-hover:text-primary-600">
                   {feat.icon}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 group-hover:text-red-900">
+                  <h3 className="font-semibold text-gray-900 group-hover:text-primary-900">
                     {feat.title}
                   </h3>
                   <p className="mt-1 text-sm text-gray-600">{feat.desc}</p>
@@ -86,7 +86,7 @@ export default function WhyChooseUs({ className = "" }) {
             <div className="absolute inset-0 flex items-center justify-center">
               <button className="w-20 h-20 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
                 <svg
-                  className="w-10 h-10 text-red-600 ml-1"
+                  className="w-10 h-10 text-primary-600 ml-1"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >

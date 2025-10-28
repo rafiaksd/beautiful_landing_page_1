@@ -78,7 +78,7 @@ export default function Nav() {
 
       {/* Mobile Menu – Fullscreen Overlay */}
       <div
-        className={`lg:hidden fixed inset-0 top-20 z-40 bg-primary-600 transition-opacity duration-300 ${
+        className={`lg:hidden fixed inset-0 top-20 z-40 bg-primary-500 transition-opacity duration-300 ${
           mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >
